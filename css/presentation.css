@@ -16,87 +16,87 @@
     margin: auto ;
     padding-top: 100px;    
 }
-.content-section1{
+.content_section1{
     float: left;
     width: 55%;
 }
-.content-section2{
+.content_section2{
     float: right;
     width: 55%;
 }
-.content-section3{
+.content_section3{
     float: left;
     width: 100%;
 }
-.image-section1{
+.image_section1{
     float: right;
     width: 40%;
     margin-top: 40px;
 }
-.image-section2{
+.image_section2{
     float: left;
     width: 40%;
 
 }
-.image-section1 img{
+.image_section1 img{
     width: 100%;
     height: auto;
 }
-.image-section2 img{
+.image_section2 img{
     width: 100%;
     height: auto;
 }
-.content-section1 .title1{
+.content_section1 .title1{
     text-transform: uppercase;
     font-size: 28px;
 }
-.content-section2 .title2{
+.content_section2 .title2{
     text-transform: uppercase;
     font-size: 28px;
 }
-.content-section1 .content1 h3{
+.content_section1 .content1 h3{
     margin-top: 20px ;
     color: #5d5d5d;
     font-size: 19px;
 }
-.content-section2 .content2 h3{
+.content_section2 .content2 h3{
     margin-top: 20px ;
     color: #5d5d5d;
     font-size: 19px;
 }
-.content-section3 .content1 h3{
+.content_section3 .content1 h3{
     margin-top: 20px ;
     color: #920000;
     font-size: 19px;
 }
-.content-section3 .content1 h4{
+.content_section3 .content1 h4{
     margin-top: 20px ;
     color: #0b15a1;
     font-size: 19px;
     float: left;
 }
-.content-section1 .content1 p{
+.content_section1 .content1 p{
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 18px;
     line-height:1.5 ;
 }
-.content-section2 .content2 p{
+.content_section2 .content2 p{
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 18px;
     line-height:1.5 ;
 }
-.content-section3 .content1 p{
+.content_section3 .content1 p{
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 18px;
     line-height:1.5 ;
 }
-.content-section1 .content1 .button1{
+.content_section1 .content1 .button1{
     margin-top:30px ;
 }
-.content-section1 .content1 .button1 a{
+.content_section1 .content1 .button1 a{
     background-color: #D8242F;
     border-radius: 100px;
     margin-left: 15px;
@@ -106,19 +106,19 @@
     font-size: 25px ;
     letter-spacing: 1.5px;
 }
-.content-section1 .content1 .button1 a:hover{
+.content_section1 .content1 .button1 a:hover{
     background-color: #1A4280;
     color: #fff;
 }
-.content-section1 .social1{
+.content_section1 .social1{
     margin: 40px 40px; 
 }
-.content-section1 .social1 i{
+.content_section1 .social1 i{
     color: #1A4280;
     font-size: 30px;
     padding:0px 10px;
 }
-.content-section1 .social1 i:hover{
+.content_section1 .social1 i:hover{
     color: #D8242F;
 }
 @media screen and (max-width: 768px){
@@ -128,61 +128,61 @@
         margin: auto;
         padding-top: 50px;    
     }
-    .content-section{
+    .content_section{
         float: none;
         width: 100%;
         display: block;
         margin: auto;
     }
-    .content-section1{
+    .content_section1{
         float: none;
         width: 100%;
         display: block;
         margin: auto;
     }
-    .content-section2{
+    .content_section2{
         float: none;
         width: 100%;
         display: block;
         margin: auto;
     }
-    .image-section1{
+    .image_section1{
         float: none;
         width: 100%;
         
     }
-    .image-section2{
+    .image_section2{
         float: none;
         width: 100%;
         
     }
-    .image-section1 img{
+    .image_section1 img{
        width: 100%;
        height: auto;
        display:block ;
        margin: auto;
     }
-    .image-section2 img{
+    .image_section2 img{
         width: 100%;
         height: auto;
         display:block ;
         margin: auto;
      }
-    .content-section1 .title1{
+    .content_section1 .title1{
         text-align: center ;
         font-size:19px ;
     }
-    .content-section2 .title2{
+    .content_section2 .title2{
         text-align: center ;
         font-size:19px ;
     }
-    .content-section1 .content1 .button1{
+    .content_section1 .content1 .button1{
         text-align: center;
     }
-    .content-section1 .content1 .button1 a{
+    .content_section1 .content1 .button1 a{
         padding:9px 30px;
     }
-    .content-section1 .social1{
+    .content_section1 .social1{
         text-align: center;   
     }
 }
@@ -337,4 +337,10 @@
 .social-links a i{
     color: #444;
 
+}
+.MoreText{
+    display: none;
+}
+.text.show-more .MoreText{
+    display: inline;
 }
