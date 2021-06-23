@@ -13,15 +13,28 @@
 .container1{
     width: 80%;
     display: block;
-    margin: auto;
+    margin: auto ;
     padding-top: 100px;    
 }
 .content-section1{
     float: left;
     width: 55%;
 }
+.content-section2{
+    float: right;
+    width: 55%;
+}
+.content-section3{
+    float: left;
+    width: 100%;
+}
 .image-section1{
     float: right;
+    width: 40%;
+    margin-top: 40px;
+}
+.image-section2{
+    float: left;
     width: 40%;
 
 }
@@ -29,7 +42,15 @@
     width: 100%;
     height: auto;
 }
+.image-section2 img{
+    width: 100%;
+    height: auto;
+}
 .content-section1 .title1{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section2 .title2{
     text-transform: uppercase;
     font-size: 28px;
 }
@@ -38,7 +59,35 @@
     color: #5d5d5d;
     font-size: 19px;
 }
+.content-section2 .content2 h3{
+    margin-top: 20px ;
+    color: #5d5d5d;
+    font-size: 19px;
+}
+.content-section3 .content1 h3{
+    margin-top: 20px ;
+    color: #920000;
+    font-size: 19px;
+}
+.content-section3 .content1 h4{
+    margin-top: 20px ;
+    color: #0b15a1;
+    font-size: 19px;
+    float: left;
+}
 .content-section1 .content1 p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height:1.5 ;
+}
+.content-section2 .content2 p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height:1.5 ;
+}
+.content-section3 .content1 p{
     margin-top: 10px;
     font-family: sans-serif;
     font-size: 18px;
@@ -79,7 +128,19 @@
         margin: auto;
         padding-top: 50px;    
     }
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
     .content-section1{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .content-section2{
         float: none;
         width: 100%;
         display: block;
@@ -90,13 +151,28 @@
         width: 100%;
         
     }
+    .image-section2{
+        float: none;
+        width: 100%;
+        
+    }
     .image-section1 img{
        width: 100%;
        height: auto;
        display:block ;
        margin: auto;
     }
+    .image-section2 img{
+        width: 100%;
+        height: auto;
+        display:block ;
+        margin: auto;
+     }
     .content-section1 .title1{
+        text-align: center ;
+        font-size:19px ;
+    }
+    .content-section2 .title2{
         text-align: center ;
         font-size:19px ;
     }
@@ -111,20 +187,17 @@
     }
 }
 .plan{
-    width: 1200px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #555;
     margin: 15px;
 }
-.plan--highlighted{
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    transform: scale(1.05);
-}
+
 .plan__header{
     padding: 25px;
     background: #1A4280;
@@ -134,6 +207,7 @@
     margin: 0;
     text-align: center;
     font-size: 1.5em;
+    font-family: sans-serif;
     font-weight: 400;
 }
 .plan__summary{
@@ -155,8 +229,27 @@
     margin: 0;
     padding-left: 25px;
     position: relative;
-    font-size: 0.9em;
+    font-size: 1.21em;
+    font-family: sans-serif;
     
+}
+.plan__features{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 1em;
+    font-family: sans-serif;
+    
+}
+.plan__features::before{
+    content: "\2710" ;
+    color: #D8242F;
+    left: 0;
+    position: absolute;
+}
+.plan__features:not(:last-child) {
+    margin-bottom: 0.5em; 
 }
 .plan__feature:not(:last-child) {
     margin-bottom: 0.5em; 
@@ -168,34 +261,8 @@
     left: 0;
     position: absolute;
 }
-.plan__actions{
-    padding: 25px;
-    border-top: 1px solid #eeee;
-    display: flex;
-    flex-direction: column;
-}
-.plan__button{
-    display: inline-block;
-    margin: 15px auto;
-    padding: 8px 20px;
-    color: #009578;
-    background: #fff;
-    border-radius: 5px;
-    border: 1px solid #009578;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    font-weight: bold;
-}
-.plan__button:hover{
-    background: #009578;
-    color: white;
-}
-.plan__cost{
-    margin: 0;
-    text-align: center;
-    font-size: 2em;
-    color: #000;
-}
+
+
 .plan__text{
     font-size: 0.9em;
     text-align: center;
