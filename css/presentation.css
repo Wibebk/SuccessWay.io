@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Poppins', sans-serif;
+}
+.section1 {
+    width:100% ;
+    min-height: 80vh;
+    background-color: white;
+}
+.container1{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;    
+}
+.content-section1{
+    float: left;
+    width: 55%;
+}
+.image-section1{
+    float: right;
+    width: 40%;
+
+}
+.image-section1 img{
+    width: 100%;
+    height: auto;
+}
+.content-section1 .title1{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section1 .content1 h3{
+    margin-top: 20px ;
+    color: #5d5d5d;
+    font-size: 19px;
+}
+.content-section1 .content1 p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height:1.5 ;
+}
+.content-section1 .content1 .button1{
+    margin-top:30px ;
+}
+.content-section1 .content1 .button1 a{
+    background-color: #D8242F;
+    border-radius: 100px;
+    margin-left: 15px;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px ;
+    letter-spacing: 1.5px;
+}
+.content-section1 .content1 .button1 a:hover{
+    background-color: #1A4280;
+    color: #fff;
+}
+.content-section1 .social1{
+    margin: 40px 40px; 
+}
+.content-section1 .social1 i{
+    color: #1A4280;
+    font-size: 30px;
+    padding:0px 10px;
+}
+.content-section1 .social1 i:hover{
+    color: #D8242F;
+}
+@media screen and (max-width: 768px){
+    .container1{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;    
+    }
+    .content-section1{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section1{
+        float: none;
+        width: 100%;
+        
+    }
+    .image-section1 img{
+       width: 100%;
+       height: auto;
+       display:block ;
+       margin: auto;
+    }
+    .content-section1 .title1{
+        text-align: center ;
+        font-size:19px ;
+    }
+    .content-section1 .content1 .button1{
+        text-align: center;
+    }
+    .content-section1 .content1 .button1 a{
+        padding:9px 30px;
+    }
+    .content-section1 .social1{
+        text-align: center;   
+    }
+}
+.plan{
+    width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+    margin: 15px;
+}
+.plan--highlighted{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+.plan__header{
+    padding: 25px;
+    background: #1A4280;
+    color: #fff;
+}
+.plan__title{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.plan__summary{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+.plan__description{
+    padding: 25px;
+}
+.plan__list{
+    padding: 0;
+    margin: 0;
+}
+.plan__feature{
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+    
+}
+.plan__feature:not(:last-child) {
+    margin-bottom: 0.5em; 
+}
+
+.plan__feature::before{
+    content: "\2714" ;
+    color: #D8242F;
+    left: 0;
+    position: absolute;
+}
+.plan__actions{
+    padding: 25px;
+    border-top: 1px solid #eeee;
+    display: flex;
+    flex-direction: column;
+}
+.plan__button{
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    color: #009578;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+.plan__button:hover{
+    background: #009578;
+    color: white;
+}
+.plan__cost{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+}
+.plan__text{
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.meet_container{
+    text-align: center;
+    background: white;   
+}
+.meet_header{
+    padding-top: 60px;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+.sub-meet-conainer{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teams{
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+    cursor: pointer;
+    transition:0.4s ;
+    box-sizing: border-box;
+}
+.teams:hover{
+    background: cornsilk;
+
+}
+.teams img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.name{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.desig{
+    font-style: italic;
+    color: #888; 
+}
+.about{
+    margin: 20px 0;
+    font-weight: lighter ;
+    color: #4e4e4e;
+}
+.social-links{
+    margin: 14px;   
+}
+.social-links a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: .4s;
+}
+.social-links a i{
+    color: #444;
+
+}
