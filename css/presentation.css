@@ -203,13 +203,15 @@
     background: #1A4280;
     color: #fff;
 }
-.plan__title{
+
+.plan__title {
     margin: 0;
     text-align: center;
     font-size: 1.5em;
     font-family: sans-serif;
     font-weight: 400;
 }
+
 .plan__summary{
     margin: 0;
     margin-top: 10px;

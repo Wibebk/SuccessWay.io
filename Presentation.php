@@ -37,8 +37,8 @@
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html" class="smoothScroll">Accueil</a></li>
-					<li><a href="index.html" class="smoothScroll">Présentation</a></li>
+					<li><a href="index.php" class="smoothScroll">Accueil</a></li>
+					<li><a href="index.php" class="smoothScroll">Présentation</a></li>
 					<li><a href="#about" class="smoothScroll">Formation en cours</a></li>
 					<li><a href="#portfolio" class="smoothScroll">Services</a></li>
 					<li><a href="#contact" class="smoothScroll">Réferences</a></li>
