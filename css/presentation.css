@@ -14,7 +14,7 @@
     width: 80%;
     display: block;
     margin: auto ;
-    padding-top: 100px;    
+    padding-top: 10px;    
 }
 .content_section1{
     float: left;
@@ -296,13 +296,13 @@
 .teams{
     margin: 10px;
     padding: 22px;
-    max-width: 30%;
+    max-width: 23%;
     cursor: pointer;
     transition:0.4s ;
     box-sizing: border-box;
 }
 .teams:hover{
-    background: cornsilk;
+    background: rgba(46, 43, 235, 0.507);
 
 }
 .teams img{
@@ -321,7 +321,8 @@
     color: #888; 
 }
 .about{
-    margin: 20px 0;
+    margin-top: 20px 0 ;
+    
     font-weight: lighter ;
     color: #4e4e4e;
 }
